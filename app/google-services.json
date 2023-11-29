@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "829087500671",
+    "project_id": "greenthumb-28a12",
+    "storage_bucket": "greenthumb-28a12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829087500671:android:b2d07b86617ca22ecdf24a",
+        "android_client_info": {
+          "package_name": "com.abinaya.greenthumb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829087500671-8ldhvfsarb9cdqhpgp8sa31nibskni5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe2dZMp3uUcqSlGfvXDFhfCWkFokjBxto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829087500671-8ldhvfsarb9cdqhpgp8sa31nibskni5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

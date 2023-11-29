@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="272dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="25dp"
+                android:gravity="center"
+                android:text="Green Thumb by Abinaya Raghuraman"
+                android:textSize="15dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="91dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="110dp"
+                android:gravity="center"
+                android:text="@string/app_copyright"
+                android:textSize="7dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="161dp"
+                android:layout_height="15dp"
+                android:autoLink="web"
+                android:layout_marginLeft="100dp"
+                android:text="https://github.com/kanaekiii"
+                android:textColorLink="@color/blue"
+                android:textSize="9dp" />
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

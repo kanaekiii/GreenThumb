@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/individualPlantLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorAlpha"/>
+
+    <ImageView
+        android:id="@+id/lastCaptureImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/space2"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_growing_plant" />
+
+    <TextView
+        android:id="@+id/parentPlantLabelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space2"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:paddingEnd="5dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/parent_plant"
+        android:textAlignment="textStart"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/parentPlantIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space2"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/parentPlantLabelTextView"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/placeholder_parent_name"
+        android:textColor="@color/testcolor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/parentPlantLabelTextView"
+        android:layout_below="@+id/parentPlantLabelTextView"
+        android:paddingEnd="5dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/plant_source"
+        android:textAlignment="textStart"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fromSeedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parentPlantLabelTextView"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/textView45"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/plant_origin_clone"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView45"
+        android:layout_marginStart="5dp"
+        android:paddingEnd="5dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/grow_week"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/weeksSinceGrowStartTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView45"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/textView34"
+        android:paddingEnd="10dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/placeholder_days_since_start"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView34"
+        android:layout_marginStart="5dp"
+        android:paddingEnd="5dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/grow_day"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/daysSinceGrowStartTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView34"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/textView36"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/placeholder_days_since_start"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView36"
+        android:layout_marginStart="5dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/grow_phase"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/stateNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView36"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/textView38"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/placeholder_state_name"
+        android:textColor="@color/testcolor"
+        android:textIsSelectable="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView38"
+        android:layout_marginStart="5dp"
+        android:lineSpacingExtra="24sp"
+        android:paddingRight="5dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/phase_week"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/weeksSinceStateStartTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView38"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/textView40"
+        android:paddingRight="10dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/placeholder_days_since_start"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView40"
+        android:layout_marginStart="5dp"
+        android:paddingRight="5dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/phase_day"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/daysSinceStateStartTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView40"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@id/textView42"
+        android:shadowColor="@color/black"
+        android:shadowRadius="@integer/text_shading_pad"
+        android:text="@string/placeholder_days_since_start"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/spinnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastCaptureImageView"
+        android:background="@drawable/raised_gradient"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/addEventSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:elevation="10dp"
+            android:fadeScrollbars="false"
+            android:scrollIndicators="top|bottom" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recordableEventListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/spinnerLayout"
+        android:animationCache="false"
+        android:background="@color/white"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        android:scrollingCache="true" />
+
+</RelativeLayout>

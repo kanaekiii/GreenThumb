@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuBar">
+
+    <item android:title="@string/drawer_title_view"
+        android:id="@+id/viewsMenuItem">
+        <menu>
+            <item
+                android:id="@+id/nav_add_plant"
+                android:checkable="false"
+                android:icon="@drawable/ic_add"
+                android:title="@string/drawer_item_add_plant" />
+            <item
+                android:id="@+id/nav_active_plants"
+                android:icon="@drawable/ic_growing_plant"
+                android:title="@string/drawer_item_active" />
+            <!--<item
+                android:id="@+id/nav_archived_plants"
+                android:icon="@drawable/ic_growing_plant"
+                android:title="@string/drawer_item_archived" />-->
+            <item
+                android:id="@+id/nav_all_plants"
+                android:icon="@drawable/ic_growing_plant"
+                android:title="@string/drawer_item_all" />
+        </menu>
+    </item>
+    <item android:title="@string/drawer_title_manage">
+        <menu>
+            <item
+                android:id="@+id/nav_manage_events"
+                android:icon="@drawable/ic_record_template"
+                android:title="@string/drawer_item_record_templates"/>
+            <item
+                android:id="@+id/nav_manage_groups"
+                android:icon="@drawable/ic_bundle_of_hay"
+                android:title="@string/drawer_item_groups"/>
+            <!--<item-->
+            <!--android:id="@+id/nav_manage_states"-->
+            <!--android:icon="@drawable/ic_moon_phase"-->
+            <!--android:title="Plant Phases"/>-->
+        </menu>
+    </item>
+
+    <item android:title="@string/drawer_title_transfer">
+        <menu>
+            <item
+                android:id="@+id/nav_sync_settings"
+                android:icon="@drawable/ic_export"
+                android:title="@string/drawer_item_sync_settings" />
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="@drawable/ic_export"
+                android:title="@string/drawer_item_sync" />
+            <item
+                android:id="@+id/nav_full_sync"
+                android:icon="@drawable/ic_export"
+                android:title="@string/drawer_item_full_sync" />
+        </menu>
+    </item>
+
+    <item android:title="@string/drawer_title_delete">
+        <menu>
+            <item
+                android:id="@+id/nav_delete"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/drawer_item_delete_all_plants" />
+        </menu>
+    </item>
+
+    <item android:title="About">
+        <menu>
+            <!--<item
+                android:id="@+id/nav_about_profile"
+                android:icon="@drawable/baseline_person_24"
+                android:title="Profile" />-->
+            <item
+                android:id="@+id/nav_about_privacy_policy"
+                android:icon="@drawable/baseline_privacy_tip_24"
+                android:title="@string/drawer_item_privacy_policy" />
+            <item
+                android:id="@+id/nav_about_plant_tracker"
+                android:icon="@drawable/ic_about"
+                android:title="@string/drawer_item_about" />
+        </menu>
+    </item>
+
+
+</menu>

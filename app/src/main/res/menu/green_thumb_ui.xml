@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:andoird="http://schemas.android.com/tools"
+    android:id="@+id/individual_plant_menu">
+    <group>
+        <item
+            android:id="@+id/action_groups"
+            android:checkable="false"
+            android:enabled="true"
+            android:orderInCategory="100"
+            android:title="@string/plant_opt_groups"
+            android:visible="true"
+            app:showAsAction="never">
+            <menu>
+                <item
+                    android:id="@+id/add_group"
+                    android:checkable="false"
+                    android:enabled="true"
+                    android:orderInCategory="0"
+                    android:title="@string/plant_opt_add_group"
+                    android:visible="true"
+                    app:showAsAction="never"/>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/action_clone_plant"
+            android:checkable="false"
+            android:enabled="true"
+            android:orderInCategory="100"
+            android:title="@string/plant_opt_clone_plant"
+            android:visible="true"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_copy"
+            android:checkable="false"
+            android:enabled="true"
+            android:orderInCategory="100"
+            android:title="@string/action_copy"
+            android:visible="true"
+            app:showAsAction="never" />
+        <!--<item-->
+            <!--android:id="@+id/action_set_reminder"-->
+            <!--android:checkable="false"-->
+            <!--android:enabled="true"-->
+            <!--android:orderInCategory="100"-->
+            <!--android:title="Set Reminder"-->
+            <!--android:visible="true"-->
+            <!--app:showAsAction="never" />-->
+        <item
+            android:id="@+id/action_rename"
+            android:checkable="false"
+            android:enabled="true"
+            android:orderInCategory="100"
+            android:title="@string/action_rename"
+            android:visible="true"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_change_start_date"
+            android:checkable="false"
+            android:enabled="true"
+            android:orderInCategory="100"
+            android:title="@string/action_change_start_date"
+            android:visible="true"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_archive_plant"
+            android:checkable="false"
+            android:enabled="true"
+            android:orderInCategory="100"
+            android:title="@string/plant_opt_archive"
+            android:visible="true"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_unarchive_plant"
+            android:checkable="false"
+            android:enabled="true"
+            android:orderInCategory="100"
+            android:title="@string/plant_opt_unarchive"
+            android:visible="true"
+            app:showAsAction="never" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/action_delete_plant"
+            android:checkable="false"
+            android:enabled="true"
+            android:orderInCategory="100"
+            android:title="@string/action_delete"
+            android:visible="true"
+            app:showAsAction="never" >
+            <menu>
+                <item
+                    android:id="@+id/action_delete_plant_really"
+                    android:checkable="false"
+                    android:enabled="true"
+                    android:orderInCategory="100"
+                    android:title="@string/action_delete_really"
+                    android:visible="true"
+                    app:showAsAction="never" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

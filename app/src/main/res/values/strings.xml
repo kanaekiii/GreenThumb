@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">GreenThumb</string>
+    <string name="app_copyright">Copyright 2023 - 2025</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_delete">Delete Plant</string>
+    <string name="action_delete_really">Confirm Delete Plant</string>
+    <string name="action_rename">Rename Plant</string>
+    <string name="action_change_start_date">Change Plant Date</string>
+    <string name="action_change_flower_date">Change Flower Date</string>
+    <string name="action_copy">Copy Plant</string>
+    <string name="record_not_found">Record not found</string>
+    <string name="seed">Seed</string>
+    <string name="clone">Clone</string>
+    <string name="loremipsum">Lorem ipsum dolar solat</string>
+    <string name="record_template">Record Template</string>
+    <string name="description">Description</string>
+
+    <string name="drawer_item_about">About Green Thumb</string>
+    <string name="drawer_item_add_plant">Add Plant</string>
+    <string name="drawer_item_active">Plants: Active</string>
+    <string name="drawer_item_archived">Plants: Archived</string>
+    <string name="drawer_item_all">Plants: All</string>
+    <string name="drawer_item_record_templates">Record Templates</string>
+    <string name="drawer_item_groups">Groups</string>
+    <string name="drawer_item_sync">Sync with PrivateStash</string>
+    <string name="drawer_item_full_sync">Force Sync</string>
+    <string name="drawer_item_sync_settings">Sync Settings...</string>
+    <string name="drawer_item_export">Export</string>
+    <string name="drawer_item_import">Import</string>
+    <string name="drawer_item_delete_all_plants">Delete All Plants</string>
+    <string name="drawer_item_privacy_policy">Privacy Policy</string>
+
+    <string name="drawer_title_view">View</string>
+    <string name="drawer_title_manage">Manage</string>
+    <string name="drawer_title_transfer">Plant Data</string>
+    <string name="drawer_title_delete">Delete</string>
+
+    <string name="plant_opt_archive">Archive</string>
+    <string name="plant_opt_unarchive">Unarchive</string>
+    <string name="plant_opt_clone_plant">Clone Plant</string>
+    <string name="plant_opt_groups">Groups</string>
+    <string name="plant_opt_add_group">Add Group</string>
+    <string name="plant_opt_rename_group">Rename Group</string>
+    <string name="plant_opt_delete_group">Delete Group</string>
+
+    <string name="request_permission">Green Thumb needs camera permission.</string>
+    <string name="camera_error">There was an error with the camera.</string>
+    <string name="intro_message">Intro message here?.</string>
+
+    <string name="grow_week">Grow Wk</string>
+    <string name="grow_day">Day</string>
+    <string name="grow_phase">Phase</string>
+    <string name="phase_week">Phase Wk</string>
+    <string name="phase_day">Day</string>
+
+    <string name="parent_plant">Parent Plant</string>
+    <string name="plant_source">Plant Source</string>
+
+    <string name="plant_origin_seed">Seed</string>
+    <string name="plant_origin_clone">Clone</string>
+
+    <string name="placeholder_parent_name">White Dwarf #3 G2</string>
+    <string name="placeholder_days_since_start">13</string>
+    <string name="placeholder_state_name">Flowering</string>
+
+    <string name="add_new_record">-- Add new record --</string>
+
+
+    <string name="set_phase">[ Set Phase ]</string>
+
+    <string-array name="plant_event_options">
+        <item>Add Event</item>
+        <item>Change State</item>
+        <item>Feed</item>
+        <item>Observe</item>
+        <item>Re-pot</item>
+        <item>Top</item>
+        <item>Trim</item>
+        <item>Water</item>
+        <item>New Event...</item>
+    </string-array>
+
+    <string name="dialog_text">Green Thumb has stopped. Would you like to send a crash report so we
+        can fix it? The crash report does not contain any personally identifying information and
+        will be sent in an email to the crash report inbox. Why email, you might ask? Because it is
+        free =)
+    </string>
+    <string name="dialog_comment">Comments (optional) are included within the stacktrace</string>
+    <string name="manage_groups">Manage Groups</string>
+    <string name="rename_group">Rename Group</string>
+    <string name="delete_group">Delete Group</string>
+
+</resources>
